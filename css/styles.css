@@ -1,0 +1,67 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #f4dfb2;
+}
+
+.header {
+  position: fixed;
+  background-color: #dca228;
+  width: 100%;
+  color: white;
+  text-align: center;
+  height: 100px;
+  z-index: 100;
+  letter-spacing: .05em;
+}
+
+.map {
+  background: url('../img/worldmap.jpg') no-repeat center;
+  height: 79em;
+  position: relative;
+}
+
+.hover {
+    display: none;
+    background-color: #f4dfb2;
+    width: 400px;
+    padding: 10px;
+    z-index: 1000;
+    border: 10px solid black;
+    font-size: 16px;
+    top: 8%;
+    left: 0;
+    position: absolute;
+}
+
+.axolotl:hover + .hover {
+    display: block;
+}
+
+.pygmy:hover + .hover {
+    display: block;
+}
+
+.axolotl {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-400%, -100%);
+}
+
+.pygmy {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(75%, -100%);
+}
+
+.pygmy {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(75%, -100%);
+}
