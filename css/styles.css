@@ -59,9 +59,58 @@ body {
   transform: translate(75%, -100%);
 }
 
-.pygmy {
+.sandcat {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(75%, -100%);
+  transform: translate(300%, -200%);
+}
+
+.redpanda {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(500%, -300%);
+}
+
+.pika {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-400%, -200%);
+}
+
+.polarbear {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-450%, 500%);
+}
+
+.beluga {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(150%, -300%);
+}
+
+.otter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-250%, 200%);
+}
+
+.monkseal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-600%, 50%);
+}
+
+.flyingfox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(550%, 200%);
 }
