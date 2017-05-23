@@ -15,13 +15,41 @@ body {
   text-align: center;
   height: 100px;
   z-index: 100;
+  letter-spacing: .7em;
+  font-family: 'Abril Fatface',cursive;
+  text-transform: uppercase;
+  text-shadow: 2px 2px black;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Abril Fatface',cursive;
+  font-size: 36px;
   letter-spacing: .05em;
+}
+
+h3 {
+  font-size: 24px;
+  font-family: 'Raleway',sans-serif;
+}
+
+.hover p {
+  font-size: 20px;
+  font-family: 'Raleway',sans-serif;
 }
 
 .map {
   background: url('../img/worldmap.jpg') no-repeat center;
   height: 79em;
   position: relative;
+}
+
+.image {
+  width: 350px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 15px;
+  border: 5px solid black
 }
 
 .hover {
@@ -32,16 +60,23 @@ body {
     z-index: 1000;
     border: 10px solid black;
     font-size: 16px;
-    top: 8%;
+    top: 0%;
     left: 0;
     position: absolute;
+    border-radius: 5px;
 }
 
-.axolotl:hover + .hover {
-    display: block;
-}
-
-.pygmy:hover + .hover {
+.axolotl:hover + .hover,
+.pygmy:hover + .hover,
+.sandcat:hover + .hover,
+.redpanda:hover + .hover,
+.pika:hover + .hover,
+.polarbear:hover + .hover,
+.beluga:hover + .hover,
+.monkseal:hover + .hover,
+.flyingfox:hover + .hover,
+.otter:hover + .hover
+{
     display: block;
 }
 
