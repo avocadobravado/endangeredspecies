@@ -18,7 +18,7 @@ The site has a fixed masthead. The background has the position of `relative` wit
 
 OR...
 
-* View on gh-pages at [https://github.com/avocadobravado/endangeredspecies](https://github.com/avocadobravado/endangeredspecies)
+* View on gh-pages at [https://avocadobravado.github.io/endangeredspecies](https://avocadobravado.github.io/endangeredspecies)
 
 ## Screenshot of Website
 
